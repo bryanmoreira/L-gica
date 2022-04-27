@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+
+    function mostrar(mensagem){
+        document.write(mensagem);
+        pulaLinha();
+    }
+
+    var anosPassaram = 2022 - 1500;
+    var media = 28;
+
+    mostrar("A média de gerações é de " + Math.round(anosPassaram/media));
+</script>

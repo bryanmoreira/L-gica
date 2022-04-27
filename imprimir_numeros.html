@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br>");
+    }
+
+    function mostrar(msg){
+        document.write(msg);
+        pulaLinha();
+    }
+
+    contador = 30;
+
+
+    while (contador <= 40){
+        if (contador == 33 || contador == 37){
+            contador += 1;
+        } else {
+            mostrar(contador);
+            contador += 1; 
+        }
+    }
+    
+</script>

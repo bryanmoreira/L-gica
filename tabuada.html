@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br>");
+    }
+
+    function mostrar(msg){
+        document.write(msg);
+        pulaLinha();
+    }
+
+    var multiplicador
+    var tabuada = parseInt(prompt("Digite a tabuada desejada"));
+    var resultado;
+
+    for(multiplicador = 1; multiplicador <= 10; multiplicador++){
+        resultado = multiplicador * tabuada;
+        mostrar(tabuada + " vezes " + multiplicador + " = " + resultado);
+    }
+    
+</script>
